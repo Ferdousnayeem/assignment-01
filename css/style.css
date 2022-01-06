@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0 30px;
+    padding: 0;
 }
 
 h1 {
@@ -12,41 +12,49 @@ h1 {
 
 h2 {
     font-size: 34px;
+	padding: 0;
+    margin: 0;
 }
 
 h3 {
     font-size: 24px;
+	padding: 0;
+    margin: 0;
 }
 
 h4 {
     font-size: 20px;
-    padding-left: 25px;
-    margin: 10px;
-}
-
-p {
-    text-align: justify;
-    padding: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 .banner-area {
     display: flex;
-    margin-bottom: 100px;
+}
+
+#first-banner-margin {
+    margin-top: 80px;
+}
+
+.banner-height {
+    height: 560px;
 }
 
 .top-banner {
     width: 50%;
 }
 
-.top-banner img {
-    width: 60%;
-    padding: 30px;
+.first-banner {
+    margin: 0px 50px;
+}
+
+.first-banner p {
+    margin: 30px 0px;
 }
 
 .banner-text {
     border-left: 5px solid tomato;
     padding-left: 10px;
-    margin-top: 50px;
 }
 
 .special-item {
@@ -61,17 +69,31 @@ p {
     background: #F49860;
     padding: 10px 25px;
     border-radius: 5px;
-    margin-left: 15px;
+}
+
+.top-banner img {
+    width: 60%;
+    padding: 20px 100px 0px 100px;
 }
 
 .middle-area-heading {
     text-align: center;
 }
 
+.boxes {
+    margin: 0px 30px;
+}
+
 .box {
-    width: 33.3%;
+    width: 33.33%;
     margin: 10px;
     border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+    text-align: justify;
+}
+
+.box img {
+    width: 50%;
 }
 
 #box-1 {
@@ -86,51 +108,47 @@ p {
     background-color: #FFF4D6;
 }
 
-.box img {
-    width: 50%;
-    padding-top: 20px;
-}
-
-.middle-banner-1 p {
-    padding: 0px 30px 20px 30px;
-}
-
 .middle-banner-2 {
     width: 40%;
     background-image: url("../images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-size: 250px;
-    background-position-y: 80px;
-}
-
-.middle-banner-3, .middle-banner-4 {
-    width: 60%;
-    padding: 5px 30px 0px;
-
-}
-
-.middle-banner-3 h2, .middle-banner-4 h2 {
-    padding-left: 15px;
+    background-position-y: 50px;
 }
 
 .middle-banner-2 img {
-    width: 80%;
-    padding-left: 100px;
+    width: 70%;
+    padding-left: 120px;
 }
 
-.middle-banner-5 img {
-    width: 80%;
+.middle-banner-3,
+.middle-banner-4 {
+    width: 60%;
 }
+
+.first-banner-background {
+    padding: 20px 30px;
+}
+
+.first-banner-background p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* #img-bg {
+    height: 70vh;
+} */
 
 .middle-banner-5 {
     width: 40%;
     background-image: url("../images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-size: 130px;
-    background-position-x: 320px;
-    background-position-y: 310px;
+    background-position-x: 340px;
+    background-position-y: 330px;
 }
 
-#img-bg {
-    height: 80vh;
+.middle-banner-5 img {
+    width: 80%;
 }
+
