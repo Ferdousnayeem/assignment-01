@@ -40,7 +40,8 @@ h4 {
     height: 560px;
 }
 
-.top-banner {
+.top-banner, 
+.banner-end {
     width: 50%;
 }
 
@@ -122,7 +123,8 @@ h4 {
 }
 
 .middle-banner-3,
-.middle-banner-4 {
+.middle-banner-4,
+.banner-end {
     width: 60%;
 }
 
@@ -135,20 +137,59 @@ h4 {
     text-align: justify;
 }
 
-/* #img-bg {
-    height: 70vh;
-} */
-
 .middle-banner-5 {
     width: 40%;
     background-image: url("../images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-size: 130px;
-    background-position-x: 340px;
-    background-position-y: 330px;
+    background-position-x: 300px;
+    background-position-y: 290px;
 }
 
 .middle-banner-5 img {
-    width: 80%;
+    width: 70%;
 }
 
+.last-background {
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-x: 1150px;
+    background-position-y: 350px;
+}
+
+.extra-area {
+    padding: 100px 0px;
+}
+
+.last-banner {
+    width: 40%;
+}
+
+.last-banner img {
+    width: 70%;
+    padding-left: 120px;
+}
+
+.second-special-color {
+    color: #FFAD5A;
+}
+
+#footer {
+    display: block;
+    overflow: hidden;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
