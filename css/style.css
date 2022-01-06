@@ -97,7 +97,7 @@ p {
 
 .middle-banner-2 {
     width: 40%;
-    background-image: url(./images/shapes/shape-1.png);
+    background-image: url("../images/shapes/shape-1.png");
     background-repeat: no-repeat;
     background-size: 250px;
     background-position-y: 80px;
