@@ -94,3 +94,23 @@ p {
 .middle-banner-1 p {
     padding: 0px 30px 20px 30px;
 }
+
+.middle-banner-2 {
+    width: 40%;
+    background-image: url(/images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-y: 80px;
+}
+
+.middle-banner-3 {
+    width: 60%;
+    padding: 5px 30px 0px;
+
+}
+
+.middle-banner-2 img {
+    width: 80%;
+    padding-left: 100px;
+}
+
